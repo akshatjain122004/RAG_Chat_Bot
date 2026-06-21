@@ -36,3 +36,5 @@ dist/
 build/
 
 .env
+
+rag-mirror.git/
