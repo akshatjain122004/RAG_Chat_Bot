@@ -17,4 +17,4 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           git remote add huggingface https://akj77:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/akj77/chat_bot
-          git push huggingface main --force
+          git push huggingface HEAD:main --force
